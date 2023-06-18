@@ -1,0 +1,10 @@
+{
+
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "OPEN_WEATHER_APIKEY": "561f5e439258a235c6a1e79d5313b50a", //TODO: This is secret, Move to keyvault 
+    "OPEN_WEATHER_BASEURL": "https://api.openweathermap.org/data/2.5/"
+  }
+}
